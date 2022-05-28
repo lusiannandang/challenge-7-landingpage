@@ -1,6 +1,7 @@
-import Hero from "../Component/Hero/Hero";
-import Navbar from "../Component/Navbar/Navbar";
-import Footer from "../Component/Footer/Footer";
+import CariMobil from "../../Component/CariMobil/CariMobil";
+import DetailMobil from "../../Component/DetailMobil/DetailMobil";
+import Navbar from "../../Component/Navbar/Navbar";
+import Footer from "../../Component/Footer/Footer";
 import Head from "next/head";
 
 function App() {
@@ -8,12 +9,13 @@ function App() {
     <div className="App">
       <>
         <Head>
-          <title>Home</title>
+          <title>Detail Car</title>
           <meta name="description" content="Create by Nandang" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <Hero />
+        <CariMobil />
+        <DetailMobil />
         <Footer />
       </>
     </div>

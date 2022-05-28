@@ -1,0 +1,30 @@
+.body {
+  width: 1100px;
+  height: 106px;
+  margin: auto;
+  margin-top: -50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.input {
+  width: 210px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 2px;
+  border-size: 1px;
+  border-style: solid;
+  border-color: #d0d0d0;
+}
+
+.btn {
+  margin-top: 38px;
+  background-color: #5cb85f;
+  font-size: 14px;
+  color: #fff;
+  width: 92px;
+  height: 36px;
+  border-radius: 2px;
+  border: none;
+}
